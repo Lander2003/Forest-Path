@@ -1,0 +1,233 @@
+body{
+  font-family: 'Century Gothic', serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: bold;
+}
+
+/* Utilities */
+
+.btn-custom{
+  border: none;
+  padding: 10px 20px;
+  background-color: #508654;
+  color: white;
+  border-radius: 5px;
+  transition: .3s color ease, .3s background-color ease;
+}
+
+.btn-large{
+  padding: 15px 30px;
+}
+
+.btn-custom:hover{
+  color: green;
+  background-color: #d6d6d6;
+}
+
+hr{
+  border: solid 3px green;
+  width: 60px;
+  transition: .3s width ease;
+}
+
+hr:hover{
+  width: 160px;
+}
+
+/* Header */
+
+header{
+  background: url("background.png");
+  background-color: #2b6136; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.heading{
+  animation-name: heading;
+  animation-duration: 5s;
+  color: white;
+  padding: 80px 0 140px;
+}
+
+.heading h1{
+font-size: 5rem;
+text-shadow: 6px 4px 5px #91ff8994;
+}
+
+@keyframes heading{
+  from{padding-left: 300px; opacity: 0}
+  to{padding-left: 0; opacity: 1}
+}
+
+/* Navbar */
+
+.navbar{
+  padding: 30px 50px;
+}
+
+.navbar button{
+  margin-bottom: 10px;
+}
+
+.navbar-brand{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-item a{
+    color: white !important;
+    padding: 8px 20px !important;
+    transition: .2s background-color ease, .2s color ease;
+}
+
+.nav-item a:hover{
+  background-color: #4a9e5f9c;
+}
+
+/* Showcase */
+
+#showcase{
+  padding: 100px 0;
+  text-align: center;
+}
+
+.showcase-heading{
+  margin-bottom: 70px;
+}
+
+.showcase-heading h1{
+  font-size: 4rem;
+}
+.showcase-heading h2{
+  font-size: 2.5rem;
+}
+
+.showcase-box{
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  padding: 50px 30px;
+  background-color: #d8d8d8;
+  transition: .3s background-color ease, .3s border ease;
+}
+
+.showcase-box:hover{
+  border: 3px solid transparent;
+  background-color: #79e091;
+}
+
+#showcase button{
+  margin-top: 40px;
+}
+
+/* Forest */
+
+#forest{
+  background: url("background2.png");
+  background-color: #2b6136; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: auto;
+  box-shadow: 0px 0px 5px 1px black;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.forest-box{
+  color: white;
+}
+
+.forest-box h1{
+  font-size: 3rem;
+  text-shadow: 6px 2px 5px #91ff8994;
+}
+
+/* Mushrooms */
+
+#mushrooms{
+  padding: 150px 0;
+}
+
+.mushroom-box{
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* Shop */
+
+#shop{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#shop button{
+  margin-bottom: 70px;
+}
+
+#shop h3{
+  color: #5c9a6a;
+}
+
+.shop-heading{
+  padding-bottom: 60px;
+}
+
+.shop-heading h1{
+  font-size: 3.5rem;
+}
+
+/* Newsletter */
+
+#newsletter{
+  padding: 100px 0;
+  background-color: #d4d4d4;
+  text-align: center;
+}
+
+/* Footer */
+
+footer{
+  padding: 50px 0;
+  background-color: #247318;
+  color: white;
+  text-align: center;
+}
+
+footer h1{
+  font-size: 3rem;
+}
+
+footer a{
+  color: white;
+  display: block;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: lightgreen;
+}
+
+footer p{
+  margin-bottom: 5px;
+}
+
+.footer-menu{
+  padding-top: 20px;
+}
+
+.copyright{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #15420e;
+}
+.copyright p{
+  color: white;
+  margin: 0;
+}
